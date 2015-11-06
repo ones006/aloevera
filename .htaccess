@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|themes|public|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+<IfModule mod_headers.c>
+	<FilesMatch "\.(json|pdf|swf|bmp|gif|jpeg|jpg|png|svg|tiff|ico|flv|js)$">
+		ExpiresActive On
+		ExpiresDefault "access plus 1 year"
+		Header append Cache-Control "public"
+	</FilesMatch>
+</IfModule>

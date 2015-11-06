@@ -1,0 +1,116 @@
+/* 
+    Document   : black.css
+    Created on : Dec 20, 2012, 5:20:18 PM
+    Author     : Aslam
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a:hover{
+    color: #d5d5d5; font-weight: bold;
+}
+a{
+    color: #777;
+}
+
+
+
+
+.topnav, .pricing-table .color-1 h3{ background: #fff;
+border-bottom: 1px solid #f8f8f8;
+color: #777;
+}
+
+.pricing-table .color-1 h3, .color-1 .sign-up {background: #f2f2f2; color: #777 !important;  }
+.pricing-table .color-1 h4 {background: #0A8E42;border-top:1px solid #0C5C28;}
+.pro a.sign-up:hover{background: #d5d5d5; color:#000 !Important;}
+
+.entry span.meta small, .navbar-inner, .pricing-table .color-1 h4, .accordion-toggle,.label, .badge{
+    background: #f8f8f8;
+    border-bottom: 1px solid #d5d5d5;
+    background-image: url(../img/noise.png);
+    border-top: 1px solid #d5d5d5 !important;
+    color: #000;
+    
+}
+
+
+.topnav .container ul > li a,  .accordion-toggle h4{
+     color: #777 !important;
+}
+.navbar .nav > li > a, .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+    color:#777;
+    text-shadow: none !important;;
+}
+
+.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
+background-color: #fff;
+
+}
+.nav .dropdown-menu li > a {
+border-bottom: 1px solid #d5d5d5;
+}
+.nav .dropdown-menu li > a:hover, .nav .dropdown-menu li > a:focus, .nav .dropdown-submenu:hover > a{
+    color: #777 !important;
+    background : #f8f8f8 !important;
+    
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle{
+       background: #fff;
+       color: #777;
+    
+}
+
+.navbar .nav > li > .dropdown-menu::after {
+border-bottom: 6px solid #fff;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+border-top-color: #777;
+border-bottom-color: #777;
+}
+.feature-tab {
+    background-color:#f8f8f8;
+    
+    border: 1px solid #d5d5d5;
+   
+    color: #d5d5d5;
+    box-shadow: none;
+   
+    
+}
+.feature-tab i{
+ 
+    text-shadow: none;
+}
+
+.feature-tab:hover {
+    color: #86848c;
+   
+    
+}
+.feature-tab.current {
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+#footer {
+background: #111;
+}
+#features-icon{font-size: 14em;
+line-height: 120px; float:right; color:#111;}
+
+/* class: .btn-majoo,  color theme: Early Winter Morning */
+.btn-majoo { text-shadow: 0px -1px 0px #04020a; color: #ffffff; background-color: #222028; background-image: -moz-linear-gradient(top, #403e46, #04020a); background-image: -ms-linear-gradient(top, #403e46, #04020a); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#403e46), to(#04020a)); background-image: -webkit-linear-gradient(top, #403e46, #04020a); background-image: -o-linear-gradient(top, #403e46, #04020a); background-image: linear-gradient(top, #403e46, #04020a); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#403e46', endColorstr='#04020a', GradientType=0); border-color: #222028 #04020a #04020a #222028; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-majoo:hover, .btn-majoo:active, .btn-majoo.active, .btn-majoo.disabled, .btn-majoo[disabled] { background-color: #04020a; }
+.btn-majoo:hover { color: #eae8f0; text-shadow: 0px -1px 0px #000000; }
+.btn-majoo:focus { color: #86848c; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #222028 #04020a #04020a #222028; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-majoo.active, .btn-majoo:active { background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); color: #86848c; }
+/* end .btn-majoo */
+
+
+/* class: .btn-cta,  color theme: clear */
+.btn-cta { text-shadow: 0px 1px 0px #ffffff; color: #555; background-color: #FFFFF0; background-image: -moz-linear-gradient(top, #ffffff, #e1e1d2); background-image: -ms-linear-gradient(top, #ffffff, #e1e1d2); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e1e1d2)); background-image: -webkit-linear-gradient(top, #ffffff, #e1e1d2); background-image: -o-linear-gradient(top, #ffffff, #e1e1d2); background-image: linear-gradient(top, #ffffff, #e1e1d2); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e1d2', GradientType=0); border-color: #FFFFF0 #e1e1d2 #e1e1d2 #FFFFF0; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-cta:hover, .btn-cta:active, .btn-cta.active, .btn-cta.disabled, .btn-cta[disabled] { background-color: #e1e1d2; }
+.btn-cta:hover { color: #333; text-shadow: 0px 1px 0px #ffffff; }
+.btn-cta:focus { color: #5f5f50; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #FFFFF0 #e1e1d2 #e1e1d2 #FFFFF0; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-cta.active, .btn-cta:active { background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); color: #5f5f50; }
+/* end .btn-cta */

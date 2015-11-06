@@ -1,0 +1,15 @@
+/* 
+    Document   : default.css
+    Created on : Dec 20, 2012, 5:20:18 PM
+    Author     : Aslam
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.accordion-toggle,.label, .badge {
+     background: #087135;
+    background-image: url(../img/noise.png);
+ border-top: 1px solid #358B5A;
+ border-bottom: 1px solid #000;    
+}

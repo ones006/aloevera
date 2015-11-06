@@ -1,0 +1,251 @@
+
+/* Higher than 960 (desktop devices)
+====================================================================== */
+@media (min-width: 1200px) {
+	
+	#mobileOverlay {
+		display: none;
+	}
+.nav .dropdown-menu li > a {
+
+
+border-bottom: 1px solid #0B641D;
+padding: 7px 20px;
+font-size: 13px;
+}
+        
+}
+
+/* Higher than 960 (desktop devices)
+====================================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1199px){
+	
+	
+	
+	
+	#wrapper {
+
+	}
+	
+	#footer-menu {
+
+	}
+	
+	#footer {
+
+	}
+	
+	
+	
+	#mobileOverlay {
+		display: none;
+	}
+        .nav .dropdown-menu li > a {
+
+
+border-bottom: 1px solid #0B641D;
+padding: 7px 20px;
+font-size: 13px;
+}
+
+
+	
+
+
+#slides ul.paging {
+    alignment-adjust: central;
+}
+
+}
+
+/* Tablet Portrait (devices and browsers)
+====================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	
+	
+	
+	#mobileOverlay {
+		display: none;
+	}
+  .navbar .container{
+      padding: 10px 30px 0px 30px;
+  }
+.navbar .nav > li {
+    float: none;
+}
+.navbar .nav > li > a {
+    color: #F5F5F5;
+    float: none;
+    padding: 5px 0;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#slides ul.paging {
+    alignment-adjust: central;
+}
+.navbar .nav>li > a span{display: none;}
+
+}
+
+
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+	body {
+    color: #69747A;
+   
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+	
+	#mobileOverlay {
+		display: visible !important;
+	}
+
+
+
+  
+.navbar .container{padding: 10px 30px 0px 30px;}
+
+        .navbar .nav > li {
+    float: none;
+}
+
+
+.feature-tab {
+    cursor: no-drop;
+    font-size: 3.5em;
+    text-align: center;
+}
+.feature-tab {
+    background-color: #0A8E42;
+    border-radius: 100px 100px 100px 100px;
+    color: #12ad54;
+    cursor: pointer;
+    display: table-cell;
+    font-size: 2.5em;
+    height: 3em;
+    min-width: 105px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+#slides ul.paging {
+   text-align:-moz-center;
+   margin-left: 30px;
+}
+
+.navbar .nav>li > a span{display: none;}
+ul ul{display: none;
+list-style: none;
+color: #fff;
+background: #087135;
+
+min-width: 150px;
+}
+ul ul li{ min-height: 30px;}
+ul ul li a{color: #fff; text-decoration: none !important; padding: 10px;}
+ul ul li a:hover{color: #ccc; text-decoration: none !important;}
+ul  li:hover>ul {display: block; position: absolute; left:-12px;}
+
+
+
+.nav-collapse.in.collapse {
+  overflow: visible;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+    color: #69747A;
+   
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px;
+}
+	.flex-direction-nav{display: none;}
+	
+	
+	#wrapper,
+	#footer,
+	#footer-menu,
+	#copyright {
+		overflow: hidden;
+		padding: 0px   ;
+	}
+
+	
+	
+     
+	
+	.navbar .container{padding: 10px 30px 0px 30px;}
+        
+
+         .navbar .nav > li {
+  
+}
+.navbar .nav > li > a {
+    color: #F5F5F5;
+    float: none;
+    padding: 5px 0;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.navbar .nav>li > a span{display: none;}
+}
+   
+	
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+@media only screen and (max-width: 479px) {
+	
+	body {
+		padding:0;
+	}
+        
+	.container{padding: 0px 10px;}
+	header {
+		padding: 0px 20px !important;
+	}
+	#recent-blog{
+		padding: 0px 20px !important;
+	}
+        .pricing-table{margin-bottom: 10px;}
+        .pricing-table .pro{margin-top: 25px;}
+        #main-text h1 {font-size: 40px; line-height: 40px;}
+	
+	#wrapper,
+	#footer,
+	#footer-menu,
+	#copyright {
+		overflow: hidden;
+	
+	}
+	
+	.navbar .container{padding: 10px 30px 0px 30px;}
+        
+
+         .navbar .nav > li {
+    float: none;
+}
+.navbar .nav > li > a {
+    color: #F5F5F5;
+    float: none;
+    padding: 5px 0;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.navbar .nav>li > a span{display: none;}
+.marginbottom{margin-bottom: 10px;}
+.flex-direction-nav{display: none;}
+}
