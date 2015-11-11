@@ -1735,9 +1735,18 @@ a:focus {
 }
 .box-header > .box-tools {
   position: absolute;
+  right: 80px;
+  top: 5px;
+}
+
+.box-header > .box-tools-btn-action {
+  position: absolute;
   right: 10px;
   top: 5px;
 }
+
+.box-header > .box-tools-btn-action > .btn-success {padding: 4px 10px !important;}
+
 .box-header > .box-tools [data-toggle="tooltip"] {
   position: relative;
 }

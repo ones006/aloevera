@@ -1,13 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
+class Main extends AV_Controller {
 
 	public function __construct()
 	{
 		parent::__construct();
-
-		$this->template->set_theme('greentravel');
 	}
 
 	public function index()

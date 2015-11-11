@@ -454,7 +454,6 @@
             'custom',
             'jquery.fitvids',
             'sliderjs',
-            'switcher',
             'flexslider'
         ));?>
         <script type="text/javascript">

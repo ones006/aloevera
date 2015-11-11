@@ -799,7 +799,7 @@ class CI_Template
 		// Glue the title pieces together using the title separator setting
 		$title = humanize(implode($this->_title_separator, $title_parts));
 
-		return $title;
+			return APPNAME.' &bull; '.$title;
 	}
 
 	private function _ext($file)

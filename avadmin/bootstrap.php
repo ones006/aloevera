@@ -303,6 +303,8 @@ switch (ENVIRONMENT)
 
     define('TEMPLATE_THEMES', '../themes/');
 
+    define('APPNAME','Ones Backend');
+
 
 /*
  * --------------------------------------------------------------------

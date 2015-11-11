@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Auth extends CI_Controller
+class Auth extends AV_Controller
 {
 	function __construct()
 	{
@@ -11,8 +11,6 @@ class Auth extends CI_Controller
 		$this->load->library('security');
 		$this->load->library('tank_auth');
 		$this->lang->load('tank_auth');
-
-		$this->template->set_theme('adminLTE');
 	}
 
 	function index()

@@ -41,7 +41,7 @@ switch($_SERVER['HTTP_HOST'])
 
 		switch($_SERVER['SERVER_ADMIN'])
 		{
-			case 'iwan@kuliah':
+			case 'admin@example.com':
 				
 				$db_profile[]  = 'default';
 				$db_hostname[] = 'localhost';

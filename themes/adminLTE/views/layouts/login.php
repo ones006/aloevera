@@ -8,7 +8,7 @@
 			'font-awesome.min',
 			'ionicons.min',
 			'AdminLTE.min',
-			'../plugins/iCheck/square/blue'
+			'iCheck/square/blue'
 		));?>
 	</head>
 	<body class="hold-transition login-page">
@@ -20,9 +20,9 @@
 			<?php echo $template['body']; ?>
 		</div>
 	<?php echo get_js(array(
-		'../plugins/jQuery/jQuery-2.1.4.min',
+		'jquery-2.1.4.min',
 		'bootstrap.min',
-		'../plugins/iCheck/icheck.min'
+		'iCheck/icheck.min'
 	));?>
 	<script>
 		$(function () {

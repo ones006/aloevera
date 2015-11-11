@@ -301,6 +301,7 @@ switch (ENVIRONMENT)
 
     define('DEFAULT_CONTROLLER','main');
     define('TEMPLATE_THEMES', 'themes/');
+    define('APPNAME','YPPKM - AL-BARKAH');
     
 
 /*
